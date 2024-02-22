@@ -5,6 +5,9 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
+// import model
+use App\Models\Project;
+
 class ProjectTableSeeder extends Seeder
 {
     /**
