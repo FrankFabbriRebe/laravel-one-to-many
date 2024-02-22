@@ -7,3 +7,5 @@ use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\TypesController;
 
 Route::get('/', [ProjectsController::class, 'index']);
+
+Route::get('/', [TypesController::class, 'index']);
