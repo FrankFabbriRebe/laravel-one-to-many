@@ -9,5 +9,10 @@ use App\Models\Project;
 
 class ProjectsController extends Controller
 {
-    return view('pages.index');
+    public function index()
+    {
+
+        return view('pages.index');
+
+    }
 }
