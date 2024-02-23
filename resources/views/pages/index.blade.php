@@ -10,7 +10,8 @@
     @foreach ($projects as $project)
     <li>
         <h3>Project name: </h3>
-        {{ $project -> name }}
+        <span>{{ $project -> name }}: </span>
+        <span>{{ $project -> type -> name}}</span>
     </li>
     @endforeach
 </ul>
