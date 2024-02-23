@@ -8,4 +8,4 @@ use App\Http\Controllers\TypesController;
 
 Route::get('/', [ProjectsController::class, 'index']);
 
-Route::get('/', [TypesController::class, 'index']);
+Route::get('/types', [TypesController::class, 'index']);
